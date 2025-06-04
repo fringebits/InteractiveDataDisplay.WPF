@@ -4,8 +4,8 @@
 using System;
 using System.Windows;
 using System.Windows.Controls;
-using Microsoft.Maps.MapControl.WPF;
 using System.Windows.Input;
+using Microsoft.Maps.MapControl.WPF;
 
 namespace InteractiveDataDisplay.WPF
 {
