@@ -5,7 +5,7 @@ using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using Helix.MapControl;
+using MapControl;
 
 namespace InteractiveDataDisplay.WPF
 {

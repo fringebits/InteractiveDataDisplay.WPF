@@ -9,7 +9,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="Plots\BingMaps\BingMapsChart.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="Plots\BingMaps\BingMapsChart.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="System.Reactive" Version="6.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Libraries\Helix.CoreTypes\Helix.CoreTypes.csproj" />
+      <ProjectReference Include="..\..\..\Libraries\Helix.MapCore\Helix.MapCore.csproj" />
+      <ProjectReference Include="..\..\XAML-Map-Control\MapControl\WPF\MapControl.WPF.csproj" />
     </ItemGroup>
 
 </Project>
